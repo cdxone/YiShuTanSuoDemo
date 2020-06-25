@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".zhang_3.activity.ObjectAnimationMoveDemoActivity">
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="使用属性动画完成移动"
+        />
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@color/colorAccent"
+        />
+</LinearLayout>

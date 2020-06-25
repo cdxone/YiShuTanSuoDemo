@@ -9,7 +9,15 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".zhang_3.TouchSlopActivity"></activity>
+        <activity android:name=".zhang_3.activity.ObjectAnimationMoveDemoActivity"></activity>
+        <activity android:name=".zhang_3.activity.AnimationMoveDemoActivity" />
+        <activity android:name=".zhang_3.activity.ScrollerActivity" />
+        <activity android:name=".zhang_3.activity.ScrollToScrollByDemoActivity" />
+        <activity android:name=".zhang_3.activity.GestureDetector3Activity" />
+        <activity android:name=".zhang_3.activity.GestureDetector2Activity" />
+        <activity android:name=".zhang_3.activity.GestureDetector1Activity" />
+        <activity android:name=".zhang_3.activity.VelocityActivity" />
+        <activity android:name=".zhang_3.activity.TouchSlopActivity" />
         <activity android:name=".zhang_3.Zhang3MainActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>

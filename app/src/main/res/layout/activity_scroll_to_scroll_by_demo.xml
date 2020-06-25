@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".zhang_3.activity.ScrollToScrollByDemoActivity">
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="scrollTo开始滑动"
+        />
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="scrollBy开始滑动"
+        />
+    <LinearLayout
+        android:id="@+id/ll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorAccent"
+        >
+        <Button
+            android:id="@+id/temp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="xxx"
+            android:layout_marginLeft="80px"
+            android:layout_marginTop="80px"
+            />
+    </LinearLayout>
+</LinearLayout>

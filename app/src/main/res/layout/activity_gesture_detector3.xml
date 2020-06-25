@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".zhang_3.activity.TouchSlopActivity">
-
-
+    tools:context=".zhang_3.activity.GestureDetector3Activity">
+    <com.example.yishutansuodemo.zhang_3.view.MyGestureView3
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
 </androidx.constraintlayout.widget.ConstraintLayout>
