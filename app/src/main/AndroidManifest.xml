@@ -9,7 +9,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".zhang_3.activity.ObjectAnimationMoveDemoActivity"></activity>
+        <activity android:name=".zhang_3.activity.AnimationScrollerMoveActivity"></activity>
+        <activity android:name=".zhang_3.activity.FullScreenMoveActivity" />
+        <activity android:name=".zhang_3.activity.ParamMoveDemoActivity" />
+        <activity android:name=".zhang_3.activity.ObjectAnimationMoveDemoActivity" />
         <activity android:name=".zhang_3.activity.AnimationMoveDemoActivity" />
         <activity android:name=".zhang_3.activity.ScrollerActivity" />
         <activity android:name=".zhang_3.activity.ScrollToScrollByDemoActivity" />
