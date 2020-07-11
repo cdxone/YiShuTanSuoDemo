@@ -64,6 +64,11 @@ public class MyGestureView1 extends View {
     };
 
     @Override
+    protected void onMeasure(int widthMeasureSpec, int heightMeasureSpec) {
+        super.onMeasure(widthMeasureSpec, heightMeasureSpec);
+    }
+
+    @Override
     public boolean onTouchEvent(MotionEvent event) {
         //在onTouchEvent中拦截事件，并且将事件传递给了gestureDetector
         boolean result = gestureDetector.onTouchEvent(event);
