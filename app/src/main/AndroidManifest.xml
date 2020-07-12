@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".zhang_3.activity.AnimationScrollerMoveActivity"></activity>
+        <activity android:name=".zhang_2.activity.Zhang2MainActivity"></activity>
+        <activity android:name=".zhang_3.activity.AnimationScrollerMoveActivity" />
         <activity android:name=".zhang_3.activity.FullScreenMoveActivity" />
         <activity android:name=".zhang_3.activity.ParamMoveDemoActivity" />
         <activity android:name=".zhang_3.activity.ObjectAnimationMoveDemoActivity" />
@@ -22,6 +23,7 @@
         <activity android:name=".zhang_3.activity.VelocityActivity" />
         <activity android:name=".zhang_3.activity.TouchSlopActivity" />
         <activity android:name=".zhang_3.Zhang3MainActivity" />
+        <activity android:name=".zhang_2.activity.MessengerActivity"/>
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -29,12 +31,20 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <service android:name=".zhang_2.service.MyService"
+
+        <service
+            android:name=".zhang_2.service.MyService"
             android:enabled="true"
-            android:exported="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="myservice" />
+            </intent-filter>
+        </service>
+        <service android:name=".zhang_2.activity.MessengerService"
+            android:process=":remote"
             >
-            <intent-filter >
-                <action android:name="myservice"/>
+            <intent-filter>
+                <action android:name="com.ryg.MessengerService.launch" />
             </intent-filter>
         </service>
     </application>

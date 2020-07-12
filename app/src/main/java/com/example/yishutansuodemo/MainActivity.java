@@ -1,5 +1,6 @@
 package com.example.yishutansuodemo;
 
+import com.example.yishutansuodemo.zhang_2.activity.Zhang2MainActivity;
 import com.example.yishutansuodemo.zhang_3.Zhang3MainActivity;
 
 import java.util.ArrayList;
@@ -11,7 +12,7 @@ public class MainActivity extends BaseListActivty {
 
     @Override
     protected void addData(ArrayList<ItemObject> data) {
-        data.add(new ItemObject("2章：IPC机制", Zhang3MainActivity.class));
+        data.add(new ItemObject("2章：IPC机制", Zhang2MainActivity.class));
         data.add(new ItemObject("3章：View的事件体系", Zhang3MainActivity.class));
     }
 }
